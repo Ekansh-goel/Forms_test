@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="first_name">First name</label>
+        <input
+          type="text"
+          name="username"
+          size="15"
+          maxlength="30"
+          placeholder="First Name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="last_name">Last name</label>
+        <input
+          type="text"
+          size="15"
+          name="last_name"
+          placeholder="Last Name"
+          maxlength="30"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="date">Date</label>
+        <input type="date" name="date" size="30" />
+      </div>
+      <br />
+      <div>
+        <label for="preferred_name">preferred_name</label>
+        <input type="text" name="username" size="30" />
+        <br />
+        status:
+        <!--user name status-->
+      </div>
+      <br />
+      <div>
+        <label for=" preferred_name">preferred_name</label>
+        <input type="password" id="password" />
+        <br />
+      </div>
+      <br />
+      <div>
+        <label for=" Re-enter password">Re-enter password </label>
+        <input type="password" id="re_password" />
+      </div>
+      <br />
+      <div>
+        Gender:
+        <input type="radio" id="Gender" value="male" />male
+        <input type="radio" id="Gender" value="Female" />Female
+        <input type="radio" id="Gender" value="not to say" />prefer not to say
+      </div>
+
+      <div>
+        Request:
+        <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+        <!--comment box-->
+      </div>
+      <br />
+      <div>
+        <input type="button" value="submit" />
+        <input type="button" value="reset" />
+      </div>
+
+      <!--
+<iframe  name="iframe_a">
+  <p>Your browser does not support iframes.</p>
+  </iframe>
+  
+  <a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+  
+  <p><b>Note:</b> Because the target of the link matches the name of the iframe, the link will open in the iframe.</p>
+        
+      -->
+    </form>
+  </body>
+</html>
